@@ -1,0 +1,222 @@
+.bg {
+    color: black !important;
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 16px;
+}
+
+
+.navbar-toggler{
+    background-color: black;
+
+}
+.navbar-nav .nav-link {
+    color: black;
+    padding-left: 17px !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.imageSize {
+    width: 100%;
+    height: auto;
+}
+
+.productName {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.lineSpace {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .img-hover-zoom {
+        text-align: center;
+    }
+}
+@media (max-width: 739px) {
+    .shoeSize {
+        width:20%;
+        padding: 1px;
+        margin: 1px;
+    }
+}
+@media (max-width: 998px) {
+    .shoeSize {
+        width:40%;
+        padding: 1px;
+        margin: 1px;
+    }
+}
+.RelatedHead{
+    font-size: 40px;
+    text-align: left!important;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+
+}
+.section{
+    margin-top: 10px;
+  
+  }
+  .img-hover-zoom {
+    overflow: hidden;
+  }
+  
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+
+  .submit{
+	background-color: #0473aa;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .addToCart{
+    margin-left: 15px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    width:fit-content;
+    padding: 10px;
+  } 
+  .addToCart:hover{
+    background-color: #066c9e;
+   transition: 2s;
+  }
+
+  input[type=number]{
+    width:50px;
+    padding: 8px;
+  }
+
+  a{
+    text-decoration: none
+  }
+  .error{
+    color: red;
+  }
+  .genderSpecific {
+    color: grey;
+    list-style-type: none;
+}
+
+.checked {
+    color: orange;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+form {
+    margin: 0 auto;
+    background: #e6e6e6;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #157ec0;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+.Review{
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-top: 200px;
+  
+}
+.box{
+    border:solid 1px black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.reviewBox{
+  
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+
+
+.logoSize {
+    width: 50%; /* Adjusted the width to 100% */
+  }
+  
+  .head {
+    padding-left: 30px;
+    padding-bottom: 3px;
+  }
+  
+  .dnktag {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .col_padding {
+    padding-left: 100px;
+  }
+  
+  button.sub {
+    background-color: #006aff; /* Adjusted background color to a hexadecimal value */
+    padding: 5px 10px; /* Adjusted padding */
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+  }
+  
+  .lineSpaceTop {
+    margin-top: 5px;
+  }
+  .marginTop{
+    margin-top: 200px;
+  }
+
+  .check{
+    font-size:20px;
+  }

@@ -1,0 +1,333 @@
+.bg {
+    background-color: rgb(26, 139, 177);
+    color: white !important;
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding-left: 17px !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.bgImage{
+    width:100%;  
+    position:absolute;
+	  z-index: -1;
+	  opacity: 0.9;
+}
+.mainHead{
+    font-size: 70px;
+    padding-top: 100px;
+    margin-left: 100px;
+
+}
+@media (max-width: 768px) {
+.mainHead 
+{
+    font-size: 40px;
+}
+
+.mainAd 
+{
+   font-size: 16px;
+}
+.btnShopNow
+{
+    margin-left: 10px;
+    padding: 5px 15px;
+
+}
+.btnFindMore
+{
+    margin-left: 1px;
+    padding: 5px 15px;
+}
+    
+}
+
+@media (max-width: 500px) {
+    /* CSS adjustments for smaller screens */
+
+.btnShopNow
+{
+    margin-left: 1px;
+    padding: 1px 1px;
+    font-size: 10px;
+
+}
+.btnFindMore
+{
+    margin-left: 1px;
+    padding: 1px 1px;
+    font-size: 10px;
+}
+
+    
+}
+
+.mainAd{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size:20px;
+    margin-bottom: 50px;
+}
+
+.btnShopNow{
+    background-color: white;
+    color: black !important;
+    margin-left: 100px;
+    text-decoration: none;
+    padding: 15px 30px;
+
+}
+
+.btnShopNow:hover{
+    background-color: black;
+    color: white !important;
+}
+.btnFindMore{ 
+    background-color:none;
+    margin-left: 5px;
+    text-decoration: none;
+    padding: 13px 28px;
+    border: solid 2px white;
+    color: white !important;
+
+}
+.btnFindMore:hover{
+    background-color: white;
+    color: black !important;
+}
+
+
+/* offer products*/
+
+.topMargin {
+    margin-top: 50px; /* Adjust the margin according to your design */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5% 5%; /* Adjust the padding to make it responsive */
+    text-align: center;
+}
+
+.offerLine {
+    font-size: 20px;
+}
+
+/* Adjust for tablets and small laptops */
+@media (max-width: 1024px) {
+    .topMargin {
+        margin-top: 40px;
+    }
+}
+
+/* Adjust for tablets and large smartphones */
+@media (max-width: 768px) {
+    .topMargin {
+        margin-top: 30px;
+    }
+
+    .overlay {
+        padding: 10% 10%; 
+    }
+
+    .offerLine {
+        font-size: 18px;
+    }
+}
+
+/* Adjust for small smartphones */
+@media (max-width: 576px) {
+    .topMargin {
+        margin-top: 20px;
+    }
+
+    .overlay {
+        padding: 15% 15%;
+    }
+
+    .offerLine {
+        font-size: 16px;
+    }
+}
+
+
+
+
+.bgIsHere {
+    background-image: url(../images/homeBg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover; /* Adjust this property to make the background image responsive */
+    opacity: 0.9;
+    padding-bottom: 210px;
+}
+
+.featureHead{
+    font-size: 40px;
+    text-align: center;
+    margin: 70px ;
+
+}
+hr{
+
+    color: rgb(19, 99, 139);
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+.responsive {
+    padding: 0 10px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.imageSize {
+    width: 100%;
+    height: auto;
+}
+
+.genderSpecific {
+    color: grey;
+    list-style-type: none;
+}
+
+.checked {
+    color: orange;
+}
+
+.bgForsection2 {
+    background-image: url(../images/banner-03.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover; /* Adjusted to cover for better responsiveness */
+    opacity: 0.9;
+    padding-bottom: 210px;
+}
+
+.section2 {
+    background-color: white !important;
+    margin-bottom: 50px; /* Adjusted margin for better spacing */
+}
+
+/* Default styles */
+.specialEdition {
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.SectionalAd {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+    .specialEdition {
+        margin-left: 10px;
+    }
+}
+#blk {
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.section{
+    margin-top: 100px;
+  
+  }
+.iconSize {
+    width: 50px !important;;
+    height: auto;
+    padding-bottom:5px ;
+}
+
+.sale{
+    font-size: 25px;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+   
+    
+  }
+  a.sale:hover{
+    color:blue!important;
+  }
+  .nav-link:hover{
+    color: black!important;
+  }
+
+  .logoSize {
+    width: 50%; /* Adjusted the width to 100% */
+  }
+  
+  .head {
+    padding-left: 30px;
+    padding-bottom: 3px;
+  }
+  
+  .dnktag {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .col_padding {
+    padding-left: 100px;
+  }
+  
+  button.sub {
+    background-color: #006aff; /* Adjusted background color to a hexadecimal value */
+    padding: 5px 10px; /* Adjusted padding */
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+  }
+  
+  .lineSpace {
+    margin-top: 5px;
+  }
+  
