@@ -24,12 +24,15 @@
     height: auto;
 }
 
-.productName {
+.productName{
     padding-top: 50px;
     font-size: 30px;
     text-align: justify;
 }
-
+.amountShoe{
+  font-size: 30px;
+  text-align: justify;
+}
 .lineSpace {
     margin-top: 20px;
     text-align: center;

@@ -1,25 +1,34 @@
 $(document).ready(function(){
-    $(".check").click(function(){
+   
+  //feedback
+  $(".check").click(function(){
       $(this).css("color","orange");
     });
 
-    
-$(".addToCart").click(function(){
-    if($("#numberInput").val()==""){
-      $(".error").html("*choose the number of products")
+
+   
+
+    //add to cart error msg
+
+    $(".addToCart").click(function(){
+      if($("#numberInput").val()==""){
+        $(".error").html("*choose the number of products")
+      }
+      else{
+        $(".error").html("Item added to the cart")
+       
     }
-    else{
-      $(".addToCart").submit()
-      $(".error").html("Item added to cart")
-      $(".toCartPage").attr("href","yourcartlist.html")
-    }
-  });
+      });
+
+     /*
+ $(".CartImageSize").attr("src",cartimage);
+ $(".CartProductName").html(ProductName);
+ $(".PriceOfItem").html(ProductAmount);
+ $(".NoOfItem").html(ProductCount);
+ $(".SubTotal").html(SubTotal);*/
 
 
-  $(".close").click(function(){
-    $(".row").empty();
-    $("p").slide()
-  })
+  //change shoe color
 $("#shoe1 , #shoe2 ,#shoe3 ,#shoe4").click(function(){
     var subshoe=$(this).attr("src")
     var subName=$(this).attr("alt")
@@ -32,23 +41,32 @@ $("#shoe1 , #shoe2 ,#shoe3 ,#shoe4").click(function(){
 
 
     if($("#mainShoe").attr("alt")==="DNK Blue Shoe"){
-        $(".productName").html("<b>DNK Blue Shoe<div> $200.00 - $240.00 </b></div>")
+        $(".productName").html("<b>DNK Blue Shoe</b>")
+        $(".amountShoe").html("<b>240</b>")
     }
     else if($("#mainShoe").attr("alt")==="DNK Dark Blue Shoe"){
-        $(".productName").html( "<b>DNK Dark Blue Shoe <div>$210.00 - $240.00 </b></div>") 
+        $(".productName").html( "<b>DNK Dark Blue Shoe  </b>") 
+        $(".amountShoe").html("<b>250</b>")
     }
 
     else if($("#mainShoe").attr("alt")==="DNK Red Shoe"){
-        $(".productName").html("<b>DNK Red Shoe<div> $230.00 - $240.00 </b></div>")
+        $(".productName").html("<b>DNK Red Shoe </b>")
+        $(".amountShoe").html("<b>230</b>")
     }
     else if($("#mainShoe").attr("alt")==="DNK Yellow Shoe"){
-        $(".productName").html("<b>DNK Yellow Shoe<div> $250.00 - $260.00 </b></div>")
+        $(".productName").html("<b>DNK Yellow Shoe </b>")
+        $(".amountShoe").html("<b>220</b>")
     }
     else{
-        $(".productName").html("<b>DNK Green Shoe<div> $210.00 - $260.00 </b></div>")
+        $(".productName").html("<b>DNK Green Shoe</b>")
+        $(".amountShoe").html("<b>210</b>")
 
     }
     })
 
+
+  
+
+
+ 
 });
-    

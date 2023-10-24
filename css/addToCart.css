@@ -1,0 +1,54 @@
+body{
+    background-color: lightgrey;
+}
+
+
+.bg {
+    color: black !important;
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 16px;
+}
+.navbar-toggler{
+    background-color: black;
+
+}
+.navbar-nav .nav-link {
+    color: black;
+    padding-left: 17px !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+.subcolumn{
+    background-color: rgb(180, 159, 159);
+    margin: 100px;
+    
+}
+.borderline{
+    border:1px black solid;
+}
+.borderline:hover{
+    border:2px rgb(213, 10, 10) solid;
+}
+
+
+.delete{
+    cursor: pointer;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.CartImageSize{
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.CartProductName ,.NoOfItem, .PriceOfItem ,.SubTotal{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
