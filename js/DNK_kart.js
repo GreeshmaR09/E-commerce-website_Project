@@ -40,7 +40,10 @@ $(document).ready(function(){
             
     }
 
-      });
+      });    
+
+    
+
    
   //change shoe color
 $("#shoe1 , #shoe2 ,#shoe3 ,#shoe4").click(function(){

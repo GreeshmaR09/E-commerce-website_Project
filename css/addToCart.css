@@ -2,13 +2,6 @@ body{
     background-color: lightgrey;
 }
 
-
-.bg {
-    color: black !important;
-    font-family: sans-serif;
-    padding: 30px;
-    font-size: 16px;
-}
 .navbar-toggler{
     background-color: black;
 
@@ -16,6 +9,7 @@ body{
 .navbar-nav .nav-link {
     color: black;
     padding-left: 17px !important;
+    
 }
 
 .logo {
@@ -24,11 +18,12 @@ body{
 
 
 .subcolumn{
-    background-color: rgb(180, 159, 159);
-    margin: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
-.borderline{
+.borderline,.borderline2{
     border:1px black solid;
 }
 .borderline:hover{
@@ -36,7 +31,7 @@ body{
 }
 
 
-.delete{
+.delete,.delete2{
     cursor: pointer;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -47,12 +42,12 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.CartProductName ,.NoOfItem, .PriceOfItem ,.SubTotal{
+.CartProductName, .CartProductName2,.NoOfItem, .PriceOfItem ,.SubTotal,#SubTotal{
     font-size: 20px;
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.UndoBtn{
+.UndoBtn,.UndoBtn2{
     cursor: pointer;
 }
 
@@ -63,4 +58,13 @@ body{
 a{
     text-decoration: none;
     color: black !important;
+}
+.background{
+   
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover; /* Adjust this property to make the background image responsive */
+    opacity: 0.9;
+    padding-bottom: 210px;
 }

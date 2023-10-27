@@ -108,10 +108,10 @@ body{
    float: right;
    width: 600px;
 }
-#image1{
+#image1,#image2{
     width: 100%;
 }
-.totalprice1{
+.totalprice1,.totalprice2{
     margin-top: 10px;
     margin-left: 10px;
     font-size: 20px;
@@ -119,3 +119,6 @@ body{
 .left{
     float: left;
 }
+.finaltotal,.subtotal{
+    text-align: right;
+ }

@@ -10,52 +10,51 @@
     <link rel="stylesheet" href="css/shipping_Details.css">
 </head>
 <body>
-    <div class="bg">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="images/logo@2x-free-img.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>EVERYTHING</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>WOMEN</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>MEN</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>ACCESSORIES</strong></a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="DNK_main.html">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>$0.00</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="yourcart.html"><i class="fa fa-shopping-bag"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-user"></i></a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="images/logo@2x-free-img.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tagline_page.html"><strong>EVERYTHING</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tagline_page.html#women"><strong>WOMEN</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tagline_page.html#men"><strong>MEN</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tagline_page.html#Accessories"><strong>ACCESSORIES</strong></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="DNK_main.html#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="DNK_main.html#about">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Payment_details.html"><strong>$0.00</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop_pay_cart.html"><i class="fa fa-shopping-bag"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shipping__details.html"><i class="fa fa-user"></i></a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+
 
 
   <!--hereeeeeeeeeeeee-->
@@ -144,37 +143,15 @@
           
 
  <div class="form-group">
-<label for="address">Street Address</label>
+<label for="address">Street Address(optional)</label>
 <input type="textarea" id="saddress" name="saddress" placeholder="House number and street name">
             </div>   
- <div class="form-group">
 
-    <div class="row">
-        <div class="col-md-6">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="shipping" id="freeShipping" value="free">
-                <label class="form-check-label" for="freeShipping">
-                    Free Shipping
-                    <div>Between 2-5 working days</div>
-                </label>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="shipping" id="fastDelivery" value="fast">
-                <label class="form-check-label" for="fastDelivery">
-                    Fast Delivery-$20
-                    <div>24 hours from checkout</div>
-                </label>
-            </div>
-        </div>
-    </div>
-</div>
         </form>
 </div>  
+<div id="error"></div>
 
-
-<button type="submit" class="checkout-btn">Proceed to Checkout</button>
+<button type="submit" class="checkout-btn" >Proceed to Checkout</button>
     </div>
     
     
@@ -187,7 +164,7 @@
 <div class="col-sm-6">
     <div class="name1"></div>$
     <span class="price1"></span>*<span class="count"></span>
-  <div>TOTAL:<strong ><span class="totalprice1"></span></strong></div> 
+  <div>FINAL:<strong ><span class="totalprice1"></span></strong></div> 
     
 </div>
 
@@ -218,9 +195,8 @@
 <div class=" summery3">
     <h5 class="form-group">Shipping Details</h5>
     
-<div>TOTAL:$<span class="finaltotal"></span></div>
-<div> SHIPPING FEE:$<span class="shippingfee"></span>
-    <strong ><div>SUBTOTAL:$<span class="subtotal"></span></strong></div> 
+<div>TOTAL<strong>:$<span class="finaltotal"></span></strong></div>
+    <div>SUBTOTAL<strong >:$<span class="subtotal"></span></strong></div> 
     
 </div>
 
