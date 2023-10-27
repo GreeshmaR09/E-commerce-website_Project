@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/addToCart.css">
+    <link rel="stylesheet" href="css/payment.css">
 </head>
 <body>
     <div class="bg">
@@ -58,93 +58,123 @@
     </div>
 
 
-
-    <!--main page-->
-    <div class="container-fluid bgcolor">
-        <h1 class="text-center">YOUR CART</h1>
-
-
-        <div class="container subcolumn">
-
-            <div class="row">
-                <div class="col-sm-2 text-center"> 
-                    <!--cross here-->
-                </div>
-                <div class="col-sm-2 text-center"> 
-                
-                    <!--photo here-->
-                
-                    <div class="CartProductName"><strong>PRODUCT</strong></div>
-                </div>
-                <div class="col-sm-2 text-center"> 
-                    <!--product name here-->
-                <div class="CartProductName"><strong>PRODUCT NAME</strong></div>
-                    
-                </div>
-                <div class="col-sm-2 text-center"> 
-                
-                    <!--price here-->
-                    <div class="PriceOfItem"><strong>PRICE in $</strong></div>
-                </div>
-                <div class="col-sm-2 text-center"> 
-                    <div class="NoOfItem"> <strong>QUANTITY</strong></div>
-                </div>
-                
-                    <!--quantity here-->
-                
-                <div class="col-sm-2 text-center">
-                    <!--subtotal-->
-                    <div class="SubTotal"><strong>TOTAL</strong></div>
-                </div>
-                
-                
-                </div>
-
-<div class="row borderline">
-<div class="col-sm-2 text-center"> 
-   <i class="material-icons delete">delete</i>
-    <!--cross here-->
-</div>
-<div class="col-sm-2 text-center"> 
-
-    <!--photo here-->
-
-    <img src="" id="imgHere" class="CartImageSize"/>
-</div>
-<div class="col-sm-2 text-center"> 
-    <!--product name here-->
-<div class="CartProductName" id="pname"></div>
+  <!--hereeeeeeeeeeeee-->
+  
+  <div class="container">
+    <div class="row section ">
+      <div class="col-md-4 text-center">
+       
+        <a href="shop_pay_cart.html">SHOPPING CART</a>
+           
+          
+      </div>
+      <div class="col-md-4 text-center">
     
+        <a href="shipping__details.html">   SHIPPING DETAILS</a>
+           
+         
+      </div>
+      <div class="col-md-4 text-center">
+       
+            PAYMENT OPTION
+           <hr/>
+         
+    </div>
 </div>
-<div class="col-sm-2 text-center"> 
-
-    <!--price here-->
-    <div class="PriceOfItem" id="price"></div>
-</div>
-<div class="col-sm-2 text-center"> 
-    <div class="NoOfItem" id="count"> </div>
-</div>
-
-    <!--quantity here-->
-
-<div class="col-sm-2 text-center">
-    <!--subtotal-->
-    <div class="SubTotal" id="SubTotal"></div>
+      
 </div>
 
 
-</div>
+<div class="container">
 
-<div class="UndoBtn text-center"></div>
 
+    <h1 class="text-center section">Payment Method</h1>
+
+<div class="payment-form left">
+    <form action="/submit_payment" method="post">
+        <h5 class="form-group">Payment Details</h5>
+        <div class="form-group">
+            <label for="card_number">Card Number</label>
+            <input type="text" id="card_number" name="card_number" required>
         </div>
 
+        <div class="form-group">
+            <label for="expiry_date">Expiry Date</label>
+            <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YY" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input type="number" id="cvv" name="cvv" required>
+        </div>
+
+        <div class="form-group">
+            <label for="card_holder">Card Holder Name</label>
+            <input type="text" id="card_holder" name="card_holder" required>
+        </div>
+
+        <button type="submit" class="payment-btn">Pay Now</button>
+    </form>
+</div>
+
+<div class=" summery">
+    <h5 class="form-group">Shipping Details</h5>
+    <div class="row">
+<div class="col-sm-2">
+    <img src="" id="image1"><!--image here-->
+</div>
+<div class="col-sm-6">
+    <div class="name1"></div>$
+    <span class="price1"></span>*<span class="count"></span>
+  <div>TOTAL:<strong ><span class="totalprice1"></span></strong></div> 
+    
+</div>
+
+
+
     </div>
+
+</div>
+
+<div class=" summery2">
+    <h5 class="form-group">Shipping Details</h5>
+    <div class="row">
+<div class="col-sm-2">
+    <img src="" id="image2"><!--image here-->
+</div>
+<div class="col-sm-6">
+    <div class="name2"></div>$
+    <span class="price2"></span>*<span class="count2"></span>
+  <div>FINAL:<strong ><span class="totalprice2"></span></strong></div> 
+    
+</div>
+
+
+
+    </div>
+
+</div>
+<div class=" summery3">
+    <h5 class="form-group">Shipping Details</h5>
+    
+<div>TOTAL:$<span class="finaltotal"></span></div>
+<div> SHIPPING FEE:$<span class="shippingfee"></span>
+    <strong ><div>SUBTOTAL:$<span class="subtotal"></span></strong></div> 
+    
+</div>
+
+
+<a href="https://www.paypal.com" class="paypal-btn">Pay with PayPal</a>
+</div>
+    
+
+
+
 
 
   <!-- Scripts should be at the end of the body for faster page loading -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/addToCart.js"></script>   
+  <script src="js/shipping.js"></script>   
 </body>
 </html>

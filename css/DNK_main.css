@@ -159,8 +159,15 @@
     }
 
     .offerLine {
-        font-size: 16px;
+       display: none
     }
+    .btn-primary{
+        display: none;
+    }
+    .overlay{
+        font-size: 7px;
+    }
+
 }
 
 

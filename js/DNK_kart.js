@@ -11,23 +11,37 @@ $(document).ready(function(){
     //add to cart error msg
 
     $(".addToCart").click(function(){
-      if($("#numberInput").val()==""){
+      
+      if($("#ProductCount").val()==""){
         $(".error").html("*choose the number of products")
       }
       else{
-        $(".error").html("Item added to the cart")
-       
+
+        $(".error").html("Product added to cart successfully!")
+  
+
+            var name = $(".productName").text();
+            var count = $("#ProductCount").val();
+            var price=$(".amountShoe").html();
+            var images =$("#mainShoe").attr("src")
+            
+            var cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+            
+            var newItem = {
+                name: name,
+                count: count,
+                price:price,
+                image:images
+            };
+            
+            cartItems.push(newItem);
+            
+            localStorage.setItem('cart', JSON.stringify(cartItems));
+            
     }
+
       });
-
-     /*
- $(".CartImageSize").attr("src",cartimage);
- $(".CartProductName").html(ProductName);
- $(".PriceOfItem").html(ProductAmount);
- $(".NoOfItem").html(ProductCount);
- $(".SubTotal").html(SubTotal);*/
-
-
+   
   //change shoe color
 $("#shoe1 , #shoe2 ,#shoe3 ,#shoe4").click(function(){
     var subshoe=$(this).attr("src")
@@ -63,6 +77,12 @@ $("#shoe1 , #shoe2 ,#shoe3 ,#shoe4").click(function(){
 
     }
     })
+
+
+
+   
+
+
 
 
   

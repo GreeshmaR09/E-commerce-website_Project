@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(238, 237, 237);
+
+}
+
+.bg {
+    color: black !important;
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 16px;
+}
+.navbar-toggler{
+    background-color: black;
+
+}
+.navbar-nav .nav-link {
+    color: black;
+    padding-left: 17px !important;
+}
+
+.logo {
+    width: 150px;
+}
+.mainHead{
+    color: rgb(109, 109, 109);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.payment-form {
+    width: 600px;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.payment-btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-btn:hover {
+    background-color: #45a049;
+}
+.paypal-btn {
+    display: block;
+    width: 100%;
+    background-color: #003087;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none
+}
+
+.paypal-btn:hover {
+    background-color: #001f5f;
+}
+.section{
+    margin-top: 100px;
+
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}
+body{
+    background-color: lightgrey;
+}
+.summery,.summery2,.summery3{
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   float: right;
+   width: 600px;
+}
+#image1{
+    width: 100%;
+}
+.totalprice1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.left{
+    float: left;
+}

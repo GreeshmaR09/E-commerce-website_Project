@@ -52,3 +52,15 @@ body{
     padding-top: 50px;
     padding-bottom: 30px;
 }
+.UndoBtn{
+    cursor: pointer;
+}
+
+.section{
+    margin-top: 100px;
+
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}

@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(238, 237, 237);
+
+}
+
+.bg {
+    color: black !important;
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 16px;
+}
+.navbar-toggler{
+    background-color: black;
+
+}
+.navbar-nav .nav-link {
+    color: black;
+    padding-left: 17px !important;
+}
+
+.logo {
+    width: 150px;
+}
+.mainHead{
+    color: rgb(109, 109, 109);
+    font-size: 60px;
+}
+
+.checkout-form {
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    float: left;
+  
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],select, input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+input[type="textarea"]{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 630px;
+
+}
+.checkout-btn {
+    width: 630px;
+    background-color: #3c76b1;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #45a049;
+}
+.right{
+    float: left;
+    padding-right: 30px;
+}
+.section{
+    margin-top: 100px;
+
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}
+body{
+    background-color: lightgrey;
+}
+.col-md-6{
+padding: 30px;
+border: 1px solid black;
+width: 300px;
+margin-left: 20px;
+background-color: #e3e2e2
+}
+.col-md-6::selection{
+    background-color: #908d8d
+
+}
+.summery,.summery2,.summery3{
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   float: right;
+   width: 600px;
+}
+#image1{
+    width: 100%;
+}
+.totalprice1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
